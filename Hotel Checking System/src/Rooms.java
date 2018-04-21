@@ -3,7 +3,7 @@ public class Rooms {
 	private Rooms[] room = new Rooms[120];
 	private int roomNum;
 	private String type;
-	private String roomStatus;
+	public String roomStatus;
 	private int numRoomsSingle = 0;
 	private int numRoomDouble = 0;
 	private int numRoomsO =0;
@@ -14,6 +14,9 @@ public class Rooms {
 		roomNum = n;
 		type = t;
 		roomStatus = s;
+		
+		
+
 		}// Room constructor made to initialise variables.
 
 }

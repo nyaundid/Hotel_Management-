@@ -1,6 +1,6 @@
 
 public class Patron {
-	private Patron[] Patron = new Patron[40];
+	private Patron[] Patron = new Patron[80];
 	private int numCus;
 	private String name;
 	
