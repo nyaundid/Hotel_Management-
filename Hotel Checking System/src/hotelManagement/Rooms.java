@@ -1,3 +1,4 @@
+package hotelManagement;
 
 public class Rooms {
 	private Rooms[] room = new Rooms[120];

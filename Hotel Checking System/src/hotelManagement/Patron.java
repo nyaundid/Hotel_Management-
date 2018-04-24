@@ -1,3 +1,4 @@
+package hotelManagement;
 
 public class Patron {
 	private Patron[] Patron = new Patron[80];

@@ -1,3 +1,4 @@
+package hotelManagement;
 // Vikings Team Project
 //It is going to be a nice project 
 
