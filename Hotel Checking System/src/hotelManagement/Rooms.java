@@ -8,7 +8,6 @@ public class Rooms {
 	private int numRoomsSingle = 0;
 	private int numRoomDouble = 0;
 	private int numRoomsO =0;
-	
 	public Rooms(){
 	}//no-arg constructor
 
@@ -20,13 +19,5 @@ public class Rooms {
 		
 
 		}// Room constructor made to initialise variables.
-	
-	public int getRoomNo() {
-		
-		return roomNum;
-	}
-	
-	public void setRoomNo(int roomNum) {
-		this.roomNum = roomNum;
-	}
+
 }
