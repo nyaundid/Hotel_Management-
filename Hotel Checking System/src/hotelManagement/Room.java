@@ -1,4 +1,4 @@
-
+// Room class
 
 package hotelManagement;
 
