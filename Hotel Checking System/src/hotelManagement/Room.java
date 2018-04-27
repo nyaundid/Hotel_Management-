@@ -4,22 +4,56 @@ public class Room {
 	
 
        //protected String mainName;
-        private String mainName;
-        int guestsInRoom;
+	   
+        
+        @SuppressWarnings("unused")
+		private int guestsInRoom;
+        @SuppressWarnings("unused")
+		private Guest guest;
+        
+        private int number;
+		private boolean clean;
 
-        public Room() {
-            mainName = "k";
+        public Room(int no) {
+            guestsInRoom = no;
 
+     }
+        
+        
+        public  Room(int no, boolean clean) {
+            
+            this.clean = clean;
+        }
+        
+        public int getNumber() {
+        return number;
+        
+}
+        
+        public boolean getClean() {
+            return clean; 
         }
 
-        public void setName(String aName) {
-            //  System.out.println("add name class method ");
-            mainName = aName;
-        }
+        @SuppressWarnings("hiding")
+		public <guest> void setGuest(guest g) {
+            guest = (hotelManagement.Guest) g; 
+        } 
+        
 
         public String getName() {
-            return mainName;
+            return getName();
         }
+
+		public Object getStatus() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+
+		public void setName(String roomName) {
+			// TODO Auto-generated method stub
+			
+		}
     }
 
 

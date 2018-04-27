@@ -23,6 +23,15 @@ public class Controller {
 	        }
 	    }
 	}
+	
+	public static void CheckIfClean(Room[] myHotel) {
+	    for (int x = 0; x < myHotel.length; x++) {
+	        if (myHotel[x].getStatus().equals("clean")) {
+	            System.out.println("room " + (x + 1) + " is clean");
+	        }
+	    }
+	}
+	
 
 	public static void CheckinRoom(Room[] myHotel, int roomNum) {
 	    String roomName;
@@ -76,27 +85,7 @@ public class Controller {
 	    }
 	    System.out.println("All Room Names have been Saved.");
 	}
-
-	public static void LoadProgramDataFromFile(Room[] myHotel) throws IOException {
-	    FileInputStream fs = new FileInputStream("/home/unix/student12/w1387769/inputfile.txt");
-	    BufferedReader br = new BufferedReader(new InputStreamReader(fs));
-	    for (int i = 0; i < myHotel.length; i++) {
-	        myHotel[i].setName(br.readLine());
-	    }
-	}
-
-	public static void ViewRoomsOrderedAlphabeticallyByName(Room[] myHotel) {
-	    String[] myStrArray = new String[myHotel.length];
-	    for (int i = 0; i < myHotel.length; i++) {
-	        myStrArray[i] = myHotel[1].getName();
-	    }
-
-	    Arrays.sort(myStrArray);
-	    for (int a = 0; a < myStrArray.length; a++) {
-	        System.out.println(myStrArray[a]);
-	    }
-
-	}
-
-
 }
+
+	
+

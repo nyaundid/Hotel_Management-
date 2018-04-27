@@ -15,16 +15,16 @@ public class HotelApp extends Controller{
         Scanner input = new Scanner(System.in);
         
         Room[] myHotel = new Room[10];
-        myHotel[0] = new Room();
-        myHotel[1] = new Room();
-        myHotel[2] = new Room();
-        myHotel[3] = new Room();
-        myHotel[4] = new Room();
-        myHotel[5] = new Room();
-        myHotel[6] = new Room();
-        myHotel[7] = new Room();
-        myHotel[8] = new Room();
-        myHotel[9] = new Room();
+        myHotel[0] = new Room(0);
+        myHotel[1] = new Room(0);
+        myHotel[2] = new Room(0);
+        myHotel[3] = new Room(0);
+        myHotel[4] = new Room(0);
+        myHotel[5] = new Room(0);
+        myHotel[6] = new Room(0);
+        myHotel[7] = new Room(0);
+        myHotel[8] = new Room(0);
+        myHotel[9] = new Room(0);
         int roomNum = 0;
         initialise(myHotel);
         while (MainMenu) {
@@ -49,8 +49,7 @@ public class HotelApp extends Controller{
                 System.out.println("S: Store program data in to file.");
                 System.out.println("---------------------------------------------------------------------------------------");
                 System.out.println("L: Load program data from file.");
-                System.out.println("---------------------------------------------------------------------------------------");
-                System.out.println("O: View rooms Ordered alphabetically by name.");
+           
                 System.out.println("---------------------------------------------------------------------------------------");
                 System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
                 System.out.println("¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬");
@@ -75,12 +74,7 @@ public class HotelApp extends Controller{
                 case "S":
                     StoreProgramDataInToFile(myHotel);
                     break;
-                case "L":
-                    LoadProgramDataFromFile(myHotel);
-                    break;
-                case "O":
-                    ViewRoomsOrderedAlphabeticallyByName(myHotel);
-                    break;
+                
                 default:
                     System.out.println("Invalid Selection");
                     break;

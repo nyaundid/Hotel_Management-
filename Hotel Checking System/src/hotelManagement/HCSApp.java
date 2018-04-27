@@ -1,6 +1,6 @@
 package hotelManagement;
 import java.util.Scanner;
-public class hcsApp {
+public class HCSApp {
 	public static void main(String[] args) {
 	        System.out.println("Welcome to Mr John's Family Hotel.");
 	        Scanner aScanner = new Scanner(System.in);
