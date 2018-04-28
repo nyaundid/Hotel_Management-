@@ -1,3 +1,4 @@
+//
 package hotelManagement;
 
 public interface Calculator <T extends Number> {
