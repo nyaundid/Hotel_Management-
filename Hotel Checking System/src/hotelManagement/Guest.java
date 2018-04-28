@@ -5,6 +5,7 @@ public class Guest {
 		 private String name; 
 		 private int number;
 		 private Room room; 
+		 private String membertype;
 		  
 		 
 		 public Guest(String name) { 
@@ -50,7 +51,15 @@ public class Guest {
 		 
 		 public String toString() { 
 		  return "Guest" + name + number; 
-		 } 
+		 }
+
+		public String getMembertype() {
+			return membertype;
+		}
+
+		public void setMembertype(String membertype) {
+			this.membertype = membertype;
+		} 
 		  
 		}
 	
