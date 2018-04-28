@@ -75,17 +75,10 @@ public class Controller {
 	    }
 	}
 
-	public static void StoreProgramDataInToFile(Room[] myHotel) throws IOException {
-	    try (PrintWriter out = new PrintWriter(new FileWriter("/home/unix/student12/w1387769/outputfile.txt"))) {
-	        int x;
-	        for (x = 0; x < myHotel.length; x++) {
-	            out.println("Name and Room number is: " + myHotel[x].getName() + "at: " + x);
-	        }
-
-	    }
+	
 	    System.out.println("All Room Names have been Saved.");
 	}
-}
+
 
 	
 

@@ -64,9 +64,8 @@ public class HotelApp extends Controller{
                 case "F":
                     FindRoomFromCustomerName(myHotel);
                     break;
-                case "S":
-                    StoreProgramDataInToFile(myHotel);
-                    break;
+               
+                    
                 
                 default:
                     System.out.println("Invalid Selection");
