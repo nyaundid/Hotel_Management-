@@ -20,6 +20,11 @@ public class Guest {
 		  return name; 
 		 } 
 		  
+		 public String getMembertype1() {
+			return membertype;
+			 
+			 
+		 }
 		 
 		 public Room getRoom() { 
 		  return room; 
