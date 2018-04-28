@@ -63,10 +63,7 @@ public class HotelApp extends Controller{
                     break;
                 case "F":
                     FindRoomFromCustomerName(myHotel);
-                    break;
-               
-                    
-                
+                    break; 
                 default:
                     System.out.println("Invalid Selection");
                     break;

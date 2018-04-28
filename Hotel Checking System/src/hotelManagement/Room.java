@@ -13,7 +13,7 @@ public class Room {
         @SuppressWarnings("unused")
 		private Guest guest;
         
-        private int number;
+        private int roomNumber;
 		private boolean clean;
 
         public Room(int no) {
@@ -28,7 +28,7 @@ public class Room {
         }
         
         public int getNumber() {
-        return number;
+        return roomNumber;
         
 }
         
