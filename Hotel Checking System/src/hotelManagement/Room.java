@@ -56,6 +56,12 @@ public class Room {
 			// TODO Auto-generated method stub
 			
 		}
+
+
+		public Object getGuest() {
+			// TODO Auto-generated method stub
+			return null;
+		}
     }
 
 

@@ -45,14 +45,7 @@ public class HotelApp extends Controller{
                 System.out.println("D: Delete customer from room.");
                 System.out.println("---------------------------------------------------------------------------------------");
                 System.out.println("F: Find room from customer name.");
-                System.out.println("---------------------------------------------------------------------------------------");
-                System.out.println("S: Store program data in to file.");
-                System.out.println("---------------------------------------------------------------------------------------");
-                System.out.println("L: Load program data from file.");
-           
-                System.out.println("---------------------------------------------------------------------------------------");
-                System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
-                System.out.println("¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬");
+                
                 String Selection = input.next();
                 Selection = Selection.toUpperCase();
                 switch (Selection) {
