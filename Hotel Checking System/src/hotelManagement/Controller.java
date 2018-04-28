@@ -33,14 +33,14 @@ public class Controller {
 	}
 	
 
-	public static void CheckinRoom(Room[] myHotel, int roomNum) {
+	public static void CheckinRoom(Room[] myHotel, int roomNumber) {
 	    String roomName;
 	    Scanner input = new Scanner(System.in);
 	    System.out.println("Enter room number (1-10):");
-	    roomNum = input.nextInt() - 1;
-	    System.out.println("Enter Guests name " + (roomNum + 1) + " :");
+	    roomNumber = input.nextInt() - 1;
+	    System.out.println("Enter Guests name " + (roomNumber + 1) + " :");
 	    roomName = input.next();
-	    myHotel[roomNum].setName(roomName);
+	    myHotel[roomNumber].setName(roomName);
 	}
 
 	public static void ViewAllRooms(Room[] myHotel) {
@@ -74,11 +74,9 @@ public class Controller {
 	        System.out.println("There are no Rooms Booked with that name\n(make sure you've used the correct CAP's)");
 	    }
 	}
-
+}
 	
-	    System.out.println("All Room Names have been Saved.");
-	}
-
-
+	
+	    
 	
 
