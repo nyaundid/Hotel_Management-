@@ -20,7 +20,7 @@ public class Member {
 	    
 	        memberType = pMemberType;
 	        confirmationNo = pconfirmationNo;
-	        name = pName;
+	        name = pName; 
 	    }
 
 	    public void setMemberType(String pMemberType)
