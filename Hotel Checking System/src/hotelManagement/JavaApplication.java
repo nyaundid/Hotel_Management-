@@ -1,49 +1,17 @@
 package hotelManagement;
-import java.util.LinkedList;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import Controller.Home;
 
 public class JavaApplication {
+	public static void main(String[] args) throws IOException {
+		DatabaseManager manager = new DatabaseManager();
+		Home home = new Home();
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		  String mem;
-		  checkOut co =  new checkOut();
-	        
-	        Home mm = new Home();
-	        FileHandler fh = new FileHandler();
-
-	        LinkedList<Member> members = fh.readFile();        
-	        int choice = mm.getChoice();     
-
-	        while (choice != -1)
-	        {
-
-	            switch (choice)
-	            {
-	                case 1:
-	                    mem = mm.addMembers(members);
-	                    fh.appendFile(mem);
-	                    break;
-	                case 2:
-	                    co.removeMember(members);
-	                    fh.overwriteFile(members);
-	                    break;
-	                case 3:
-	                    mm.printMemberInfo(members);
-	                    break;
-	                default:
-	                    System.out.print("\nYou have selected an invalid option.\n\n");  
-	                    break;
-	                    
-	            }
+		  home.setup();
 		
-	            choice = mm.getChoice();
-
-	        }
-	        
-	        System.out.println("\nGood Bye");
-
-
-	        
-	    }
-	    
-	}
+}
+	
+}
