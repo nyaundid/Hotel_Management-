@@ -5,7 +5,7 @@ public class Member {
 	    public String confirmationNo;
 	    public String name;
 	    public String roomNo;
-//	    double fees;
+
 	    
 	    //new empty constructor 
 	    public Member (){
