@@ -68,7 +68,7 @@ public class DatabaseManager {
     	}
 		
 		public boolean checkin(String MemberName, String ConfirmationNo, String MemberType, String roomNumber) throws IOException{
-			urlString ="http://localhost/HotelManagment/checkin.php";
+			urlString ="http://35.173.198.1/HotelManagment/checkin.php";
 			 postData = URLEncoder.encode("MemberName", "UTF-8") + "=" + URLEncoder.encode(MemberName, "UTF-8") + "&"+
 					 URLEncoder.encode("ConfirmationNo", "UTF-8") + "=" + URLEncoder.encode(ConfirmationNo, "UTF-8") + "&"+
 					 URLEncoder.encode("MemberType", "UTF-8") + "=" + URLEncoder.encode(MemberType, "UTF-8") + "&"
@@ -83,7 +83,7 @@ public class DatabaseManager {
 		}
 		
 		public boolean updateRoomStatusHK(String RoomID,String statusHK) throws IOException{
-			urlString ="http://localhost/HotelManagment/updateStatusHK.php";
+			urlString ="http://35.173.198.1/HotelManagment/updateStatusHK.php";
 			 postData = URLEncoder.encode("roomID", "UTF-8") + "=" + URLEncoder.encode(RoomID, "UTF-8") + "&"
                		 + URLEncoder.encode("roomStatusHK", "UTF-8") + "=" + URLEncoder.encode(statusHK, "UTF-8");
 			url = new URL(urlString);
@@ -98,7 +98,7 @@ public class DatabaseManager {
 		
 	
 		public boolean updateRoomStatusRS(String RoomID,String statusRS) throws IOException{
-			urlString ="http://localhost/HotelManagment/updateStatusRS.php";
+			urlString ="http://35.173.198.1/HotelManagment/updateStatusRS.php";
 			 postData = URLEncoder.encode("roomID", "UTF-8") + "=" + URLEncoder.encode(RoomID, "UTF-8") + "&"
                		 + URLEncoder.encode("roomStatusRS", "UTF-8") + "=" + URLEncoder.encode(statusRS, "UTF-8");
 			url = new URL(urlString);
@@ -114,7 +114,7 @@ public class DatabaseManager {
 		
 		public ArrayList<Room> getVDRoom() throws IOException{
 			ArrayList<Room> roomList = new ArrayList<Room>();
-			urlString ="http://localhost/HotelManagment/getVDRooms.php";
+			urlString ="http://35.173.198.1/HotelManagment/getVDRooms.php";
 			url = new URL(urlString);
 			sendRequest();
 			if(!jsonOutput.equals("Failed")){
@@ -141,7 +141,7 @@ public class DatabaseManager {
 		
 		public ArrayList<Room> getAllRooms() throws IOException{
 			ArrayList<Room> roomList = new ArrayList<Room>();
-			urlString ="http://localhost/HotelManagment/getAllRoomList.php";
+			urlString ="http://35.173.198.1/HotelManagment/getAllRoomList.php";
 			url = new URL(urlString);
 			sendRequest();
 			if(!jsonOutput.equals("Failed")){
@@ -167,7 +167,7 @@ public class DatabaseManager {
 		
 		public ArrayList<Room> getAvailableRooms() throws IOException{
 			ArrayList<Room> roomList = new ArrayList<Room>();
-			urlString ="http://localhost/HotelManagment/availableRooms.php";
+			urlString ="http://35.173.198.1/HotelManagment/availableRooms.php";
 			url = new URL(urlString);
 			sendRequest();
 			if(!jsonOutput.equals("Failed")){
@@ -193,7 +193,7 @@ public class DatabaseManager {
 		
 		public ArrayList<Room> getVCRooms() throws IOException{
 			ArrayList<Room> roomList = new ArrayList<Room>();
-			urlString ="http://localhost/HotelManagment/getVCRooms.php";
+			urlString ="http://35.173.198.1/HotelManagment/getVCRooms.php";
 			url = new URL(urlString);
 			sendRequest();
 			if(!jsonOutput.equals("Failed")){
