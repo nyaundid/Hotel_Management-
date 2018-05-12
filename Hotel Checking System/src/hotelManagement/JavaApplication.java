@@ -11,7 +11,7 @@ public class JavaApplication {
 		Home home = new Home();
 
 		  home.setup();
-		
+		 
 }
 	
 }

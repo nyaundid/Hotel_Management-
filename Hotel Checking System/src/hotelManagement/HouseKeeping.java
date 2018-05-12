@@ -17,8 +17,9 @@ public class HouseKeeping {
 		  public HouseKeeping(){
 			  manager = new DatabaseManager();
 		  }
+		  
 	  public void setup() throws IOException{
-				int number = 0;
+				int number = 0; 
 				while(number != -1){
 				printChoices();
 				 number = getValidChoice();
@@ -39,6 +40,8 @@ public class HouseKeeping {
 				}
 			}
 	  }
+
+
 	  
 	  private void updateRoomStatus() throws IOException {
 		  ArrayList<Room> roomList = manager.getVDRoom();
@@ -103,4 +106,5 @@ public class HouseKeeping {
 	
 
 
-}
+	}
+	
