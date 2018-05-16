@@ -12,7 +12,7 @@ import Room.Room;
 public class FrontDiskView {
   Scanner scan = new Scanner(System.in);
 
-  Home mm = new Home();
+  
   DatabaseManager manager;
   
   public FrontDiskView(){
@@ -26,7 +26,7 @@ public void setup() throws IOException{
 	printChoices();
 	 number = getValidChoice();
 	if(number == -1){
-	mm.displayEmployee();
+	
 	
 	}
 	else 

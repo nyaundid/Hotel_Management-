@@ -8,15 +8,14 @@ public class HouseKeepingTest {
 
 	@Test
 	public void testHouseKeeping() {
-		HouseKeeping myobject=new HouseKeeping(); // with args
-
-		myobject.load(DatabaseManager); // you must definie the filename
-
-		String result=myobject.scaninput_and_compare(); // you must use scan in, and compare
-
-		if (!result.equals(what_I_am_expecting) throw new Exception("EXCEPTION scaninput_and_compare"); 
-
-		// If you arrive here, it's OK
+        try{
+        	HouseKeeping.updateRoomStatus();
+        	fail("input must be number(Integer)");
+        }	
+        	catch (IllegalArgumentException e) {
+    			// expected exception
+    		}
+         
 		}
 
 	@Test

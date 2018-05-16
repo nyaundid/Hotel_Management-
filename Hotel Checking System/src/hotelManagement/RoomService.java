@@ -11,7 +11,7 @@ public class RoomService {
 
 	Scanner scan = new Scanner(System.in);
 
-	  Home mm = new Home();
+	  
 	  DatabaseManager manager;
 	  
 	  public RoomService(){
@@ -23,7 +23,7 @@ public class RoomService {
 			printChoices();
 			 number = getValidChoice();
 			if(number == -1){
-			mm.displayEmployee();
+			
 			
 			}
 			else 

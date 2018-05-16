@@ -8,10 +8,10 @@ import Controller.Home;
 public class JavaApplication {
 	public static void main(String[] args) throws IOException {
 		DatabaseManager manager = new DatabaseManager();
-		Home home = new Home();
+		Controller.Home home = new Home();
 
 		  home.setup();
-		 
+		  
 }
 	
 }

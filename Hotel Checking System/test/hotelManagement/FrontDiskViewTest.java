@@ -1,7 +1,8 @@
 package hotelManagement;
 
 import static org.junit.Assert.*;
-//import hotelManagement.FrontDiskView;
+
+import java.util.InputMismatchException;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -13,17 +14,15 @@ import hotelManagement.JavaApplication;
 import hotelManagement.RoomService;
 import hotelManagement.HouseKeeping;
 
-public class FrontDiskViewTest {
 
+public class FrontDiskViewTest {
+	@Test()
 	public void testFrontDiskView1() {
 		
 try {
-			Home mm = new Home();
 			FrontDiskView fdv = new FrontDiskView();
-			fdv.printChoices();
-			fdv.getValidChoice();
-			fdv.printAvailableRooms();
-			fdv.checkIn();
+			fdv.setup();
+			HouseKeeping.getValidChoice();
 		}
 		catch (Exception e) {
 			fail("We can't do that");
@@ -32,7 +31,6 @@ try {
 	}
 	
 	public void testFrontDiskView()throws Exception {
-		Home mm = new Home();
 		DatabaseManager manager;
 	}
 }

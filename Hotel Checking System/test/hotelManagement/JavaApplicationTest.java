@@ -3,7 +3,9 @@ package hotelManagement;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
 import Controller.Home;
+
 import hotelManagement.FrontDiskView;
 import hotelManagement.DatabaseManager;
 import hotelManagement.JavaApplication;
@@ -15,7 +17,7 @@ public class JavaApplicationTest {
 	public void testMain() {
 		try{
 		DatabaseManager manager = new DatabaseManager();
-		Home home = new Home();	
+			
 		manager.getJsonOutput();
 		}
 		catch (Exception e){

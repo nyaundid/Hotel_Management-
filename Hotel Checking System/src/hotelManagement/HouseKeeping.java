@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import Controller.Home;
+
 import Room.Room;
 
 public class HouseKeeping {
@@ -11,7 +12,7 @@ public class HouseKeeping {
 
 		Scanner scan = new Scanner(System.in);
 
-		  Home mm = new Home();
+		 
 		  DatabaseManager manager;
 		  
 		  public HouseKeeping(){
@@ -24,7 +25,7 @@ public class HouseKeeping {
 				printChoices();
 				 number = getValidChoice();
 				if(number == -1){
-				mm.displayEmployee();
+				
 				
 				}
 				else 
@@ -91,7 +92,7 @@ public class HouseKeeping {
 
 		}
 
-		private int getValidChoice(){
+		int getValidChoice(){
 			int number = scan.nextInt();
 			
 			while (number > 3 & number < 1){

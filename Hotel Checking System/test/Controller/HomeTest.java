@@ -3,6 +3,7 @@ package Controller;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.mockito.internal.exceptions.ExceptionIncludingMockitoWarnings;
 
 import Controller.Home;
 import hotelManagement.FrontDiskView;
@@ -10,28 +11,49 @@ import hotelManagement.DatabaseManager;
 import hotelManagement.JavaApplication;
 import hotelManagement.RoomService;
 import hotelManagement.HouseKeeping;
-public class HomeTest {
 
-	@Test
+
+
+import java.io.IOException;
+import java.util.InputMismatchException;
+public class HomeTest {
+private Home home = new Home();
+
+	@Test(expected = InputMismatchException.class)
 	public void testGetIntInput() {
-	try{
-		DatabaseManager manager = new DatabaseManager();
-		Home home = new Home();	
-		manager.getJsonOutput();
-		home.displayEmployee();
-		assertArrayEquals(null, null);
+		try{
+			home.getIntInput();
+			
+		}
+		catch (Exception e){
+			fail("Can't do that");
+		}
+		
 	}
 	
-	@Test
+	@Test 
 	public void testDisplayEmployee() {
-		fail("Not yet implemented");
+		try{
+			//code goes here
+		}
+		catch(Exception e){
+			fail("Can't do that");
+		}
 	}
 
 	@Test
 	public void testSetup() {
-		fail("Not yet implemented");
-	}
-	catch (Exception e){
-		fail("Can't do that");
+		try{
+			
+			home.setup();
+			home.getIntInput();
+			home.displayEmployee();
+			home.reader.nextLine();
+			
+		}
+		catch(Exception e){
+			fail("Can't do that");
+		}
 	}
 }
+	
