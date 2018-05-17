@@ -1,6 +1,20 @@
 # Vikings
 
+##Project source can be downloaded from
 
+https://github.com/yemmene/TP_3_2_Report_Vikings.git
+
+##Author & Contributor list
+
+BINIAMG HAILE
+
+DARIUS O. NYAUNDI
+
+ELVIS A. NDENGE
+
+PATRICE A. YEMMENE
+
+EYAD SHES
 
 ## Description 
 
