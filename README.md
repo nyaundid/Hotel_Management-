@@ -1,9 +1,9 @@
 # Vikings
 
 =================
+---
+##Description 
 
-Description 
-##
 •This is the final sprint for the third team project
 
 •We envisioned, designed and developed  a Hotel Checking system (HCS)
