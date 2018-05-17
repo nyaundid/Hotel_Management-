@@ -1,7 +1,8 @@
 # Vikings
-
+=================
 
 ##Description 
+=================
 
 •This is the final sprint for the third team project
 
@@ -12,9 +13,10 @@
 •This system is flexible to support varying business rules, a few user interface mechanisms (Front Desk, Housekeeping, and Reservation Services) and integration with third party systems 
 
 •We followed the Unified Process
-=================
 
-#SYSTEM FEATURES
+
+##SYSTEM FEATURES
+=================
 
 •System designed for hotel operations. 
 
@@ -27,13 +29,19 @@
 •If the room is not clean the Guest will have to wait based on priority status. There will be interactions between the <<Patrons>> <<FrontDesk>> <<RoomService>>and <<housekeeping>>. 
 
 •There is also an interface allowing users <<Patron>> <<FrontDesk>> <<RoomService>>and <<housekeeping>> to interact with each other
-=================
+
 ##USE CASE 1
+=================
+
 Patron Check In Room
+
 ##USE CASE 1
-Patron Check Out Room
 =================
+
+Patron Check Out Room
+
 ##RUNNING THE APPLICATION
+=================
 
 •Hotel CheckInSystem SuDuses mySqldatabase called HotelManagementDB and this database has four tables: 
 	
@@ -63,7 +71,7 @@ Membership Type [Gold, Silver and Non Member] next the user will be prompted to 
 The user will be able to 1 Print Room List and 2 Update Room Statusand -1 to return to Home Screen.
 
 •Step 8:If the user selects option 3 from the Home Scree which is In Room Service, the following options will be available.
-=================
+
 #### 0.0.1
 - This is an update to the version history.
 - Version history should be thoroughly updated and correspond to project tags.
