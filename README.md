@@ -1,7 +1,8 @@
 # Vikings
 
 =================
-**Description
+
+#Description
 
 •This is the final sprint for the third team project
 •We envisioned, designed and developed  a Hotel Checking system (HCS)
@@ -9,7 +10,9 @@
 •This system is flexible to support varying business rules, a few user interface mechanisms (Front Desk, Housekeeping, and Reservation Services) and integration with third party systems 
 •We followed the Unified Process
 =================
-**SYSTEM FEATURES
+
+#SYSTEM FEATURES
+
 •System designed for hotel operations. 
 •Guests will be checked in by the FrontDesk (worker) who will coordinate with housekeeping  (worker) to insure the rooms are cleaned and ready for occupancy through the system.
 •RoomService will check minibar in room and enter minibar status in system as well. 
@@ -17,12 +20,12 @@
 •If the room is not clean the Guest will have to wait based on priority status. There will be interactions between the <<Patrons>> <<FrontDesk>> <<RoomService>>and <<housekeeping>>. 
 •There is also an interface allowing users <<Patron>> <<FrontDesk>> <<RoomService>>and <<housekeeping>> to interact with each other
 =================
-**USE CASE 1
+#USE CASE 1
 Patron Check In Room
-**USE CASE 1
+#USE CASE 1
 Patron Check Out Room
 =================
-**RUNNING THE APPLICATION
+#RUNNING THE APPLICATION
 •Hotel CheckInSystem SuDuses mySqldatabase called HotelManagementDB and this database has four tables: 
 	•Member
 	•Room
