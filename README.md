@@ -1,8 +1,8 @@
 # Vikings
 
 
-##Description 
-
+## Description 
+=================
 
 •This is the final sprint for the third team project
 
@@ -15,7 +15,7 @@
 •We followed the Unified Process
 
 
-##SYSTEM FEATURES
+## SYSTEM FEATURES
 =================
 
 •System designed for hotel operations. 
@@ -30,17 +30,17 @@
 
 •There is also an interface allowing users <<Patron>> <<FrontDesk>> <<RoomService>>and <<housekeeping>> to interact with each other
 
-##USE CASE 1
+## USE CASE 1
 =================
 
 Patron Check In Room
 
-##USE CASE 1
+## USE CASE 1
 =================
 
 Patron Check Out Room
 
-##RUNNING THE APPLICATION
+## RUNNING THE APPLICATION
 =================
 
 •Hotel CheckInSystem SuDuses mySqldatabase called HotelManagementDB and this database has four tables: 
