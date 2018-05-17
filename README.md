@@ -87,9 +87,4 @@ The user will be able to 1 Print Room List and 2 Update Room Statusand -1 to ret
 
 •Step 8:If the user selects option 3 from the Home Scree which is In Room Service, the following options will be available.
 
-#### 0.0.1
-- This is an update to the version history.
-- Version history should be thoroughly updated and correspond to project tags.
 
-#### 0.0.0
-- This is the first piece of version information.
