@@ -2,7 +2,7 @@
 
 
 ##Description 
-=================
+
 
 •This is the final sprint for the third team project
 
