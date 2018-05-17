@@ -6,23 +6,23 @@ https://github.com/yemmene/TP_3_2_Report_Vikings.git
 
 ## Author & Contributor list
 
-BINIAMG HAILE
+**BINIAMG HAILE**
 
 https://github.com/biniamh9
 
-DARIUS O. NYAUNDI
+**DARIUS O. NYAUNDI**
 
 https://github.com/nyaundid
 
-PATRICE A. YEMMENE
+**PATRICE A. YEMMENE**
 
 https://github.com/yemmene
 
-EYAD SHES
+**EYAD SHES**
 
 https://github.com/eyad-ust
 
-ELVIS A. NDENGE
+**ELVIS A. NDENGE**
 
 ## Description 
 
