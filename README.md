@@ -8,13 +8,21 @@ https://github.com/yemmene/TP_3_2_Report_Vikings.git
 
 BINIAMG HAILE
 
+https://github.com/biniamh9
+
 DARIUS O. NYAUNDI
 
-ELVIS A. NDENGE
+https://github.com/nyaundid
 
 PATRICE A. YEMMENE
 
+https://github.com/yemmene
+
 EYAD SHES
+
+https://github.com/eyad-ust
+
+ELVIS A. NDENGE
 
 ## Description 
 
