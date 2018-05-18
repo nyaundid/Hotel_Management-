@@ -49,9 +49,9 @@ https://github.com/eyad-ust
 
 •Once rooms are cleaned and minibar restocked, FrontDeskwill check each Guest club-status (gold, silver or none-member) and assign rooms by priority. 
 
-•If the room is not clean the Guest will have to wait based on priority status. There will be interactions between the <<Patrons>> <<FrontDesk>> <<RoomService>>and <<housekeeping>>. 
+•If the room is not clean the Guest will have to wait based on priority status. There will be interactions between the Patrons, FrontDesk, RoomService and housekeeping. 
 
-•There is also an interface allowing users <<Patron>> <<FrontDesk>> <<RoomService>>and <<housekeeping>> to interact with each other
+•There is also an interface allowing users Patron, FrontDesk, RoomService and housekeeping to interact with each other
 
 ## USE CASE 1
 
