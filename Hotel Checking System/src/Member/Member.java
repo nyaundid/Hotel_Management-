@@ -46,24 +46,14 @@ public class Member {
 	    
 	     public void setName(String pName)
 	    {
-	        name = pName;
+	        
+	    	 name = pName;
 	    }
 	    
 	    public String getName()
 	    {
 	        return name;
 	    }
-	    
-//	    public void setFees(double pFees)
-//	    {
-//	        fees = pFees;
-//	    }
-//	    
-//	    public double getFees()
-//	    {
-//	        return fees;
-//	    }
-
 	    @Override
 	    public String toString(){
 	       return memberType + ", " + confirmationNo + ", " + name;

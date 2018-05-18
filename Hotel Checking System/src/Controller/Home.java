@@ -15,7 +15,11 @@ public class Home {
 	
 final public Scanner reader = new Scanner(System.in);
     
-    public int getIntInput(){
+    /* (non-Javadoc)
+	 * @see Controller.main#getIntInput()
+	 */
+   
+	public int getIntInput(){
         int choice = 0;
         
         while (choice == 0)
@@ -46,7 +50,11 @@ final public Scanner reader = new Scanner(System.in);
 //        
 //    }    
     
-    public void displayEmployee(){
+    /* (non-Javadoc)
+	 * @see Controller.main#displayEmployee()
+	 */
+   
+	public void displayEmployee(){
         
         System.out.println("\nWELCOME TO HOTEL CHECKIN MANAGEMENT SYSTEM,");
         System.out.println("================================");
@@ -72,7 +80,11 @@ final public Scanner reader = new Scanner(System.in);
     	return number;
     }
     
-    public void setup() throws IOException{
+    /* (non-Javadoc)
+	 * @see Controller.main#setup()
+	 */
+    
+	public void setup() throws IOException{
     	int number = 0;
     	while(number != -1){
     	displayEmployee();
