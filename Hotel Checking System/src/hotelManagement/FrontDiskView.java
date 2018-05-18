@@ -46,7 +46,7 @@ public void setup() throws IOException{
 	}
 }
 
-private void printChoices(){
+public void printChoices(){
 	System.out.println("\n1) Print rooms report");
     System.out.println("2) Print available rooms");
     System.out.println("3) Check-in");
@@ -55,7 +55,7 @@ private void printChoices(){
 
 }
 
-private int getValidChoice(){
+public int getValidChoice(){
 	int number = scan.nextInt();
 	
 	while (number > 3 & number < 1){
@@ -67,7 +67,7 @@ private int getValidChoice(){
 	}
 	return number;
 }
-private void printAllRooms() throws IOException{
+public void printAllRooms() throws IOException{
 	
 	ArrayList<Room> roomList = manager.getAllRooms();
 	
@@ -77,7 +77,7 @@ private void printAllRooms() throws IOException{
 
 	}
 }
-private void printAvailableRooms() throws IOException{
+public void printAvailableRooms() throws IOException{
 	
 	ArrayList<Room> roomList = manager.getAvailableRooms();
 	
@@ -90,7 +90,7 @@ private void printAvailableRooms() throws IOException{
 
 }
 
-private void checkIn() throws IOException{
+public void checkIn() throws IOException{
 	printAvailableRooms();
 	
 	Member member = new Member();

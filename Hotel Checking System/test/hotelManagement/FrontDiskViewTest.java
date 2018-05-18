@@ -22,10 +22,12 @@ public class FrontDiskViewTest {
 try {
 			FrontDiskView fdv = new FrontDiskView();
 			fdv.setup();
-			HouseKeeping.getValidChoice();
+			fdv.checkIn();
+			
+			
 		}
 		catch (Exception e) {
-			fail("We can't do that");
+			fail("Add number entry only");
 		}
 		
 	}

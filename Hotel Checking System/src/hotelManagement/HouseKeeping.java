@@ -44,7 +44,7 @@ public class HouseKeeping {
 
 
 	  
-	  private void updateRoomStatus() throws IOException {
+	  public void updateRoomStatus() throws IOException {
 		  ArrayList<Room> roomList = manager.getVDRoom();
 		  int roomID = 0;
 		  scan = new Scanner(System.in);
@@ -69,7 +69,7 @@ public class HouseKeeping {
 		  } 
 		
 	}
-	private void printVDRooms() throws IOException {
+	public void printVDRooms() throws IOException {
 		ArrayList<Room> roomList = manager.getVDRoom();
 		if(roomList == null || roomList.size() < 1){
 			//Here the list will be empty
@@ -84,7 +84,7 @@ public class HouseKeeping {
 		}
 		
 	}
-	private void printChoices(){
+	public void printChoices(){
 			System.out.println("\n1) Print Room List");
 		    System.out.println("2) Update Room Status");
 		    

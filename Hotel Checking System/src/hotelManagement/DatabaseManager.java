@@ -22,6 +22,7 @@ import org.json.JSONObject;
 import Room.Room;
 
 public class DatabaseManager {
+	
 	String urlString = "http://localhost/HotelManagment/";
 	String postData;
 	URL url;
@@ -182,7 +183,6 @@ public class DatabaseManager {
 			            		 	         finalObject.getString("StatusRS")));      
 				  }
 				 }catch (JSONException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 			}else{

@@ -16,9 +16,9 @@ public class JavaApplicationTest {
 	@Test
 	public void testMain() {
 		try{
-		DatabaseManager manager = new DatabaseManager();
-			
-		manager.getJsonOutput();
+			Home home = new Home();
+			DatabaseManager manager = new DatabaseManager();	
+			manager.getJsonOutput();
 		}
 		catch (Exception e){
 			fail("Can't do that");

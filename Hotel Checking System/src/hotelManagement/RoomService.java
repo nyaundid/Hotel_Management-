@@ -40,7 +40,7 @@ public class RoomService {
 		}
   }
   
-  private void updateRoomStatus() throws IOException {
+  public void updateRoomStatus() throws IOException {
 	  ArrayList<Room> roomList = manager.getVCRooms();
 	  int roomID = 0;
 	  scan = new Scanner(System.in);
@@ -65,7 +65,7 @@ public class RoomService {
 	  } 
 	
 }
-private void printVCRooms() throws IOException {
+public void printVCRooms() throws IOException {
 	ArrayList<Room> roomList = manager.getVCRooms();
 	//Here is the error, because the roomlist is empty
 	//have to check first
@@ -82,7 +82,7 @@ private void printVCRooms() throws IOException {
 	}
 	
 }
-private void printChoices(){
+public void printChoices(){
 		System.out.println("\n1) Print Room List");
 	    System.out.println("2) Update Room Status");
 	    
@@ -90,7 +90,7 @@ private void printChoices(){
 
 	}
 
-	private int getValidChoice(){
+	public int getValidChoice(){
 		int number = scan.nextInt();
 		
 		while (number > 3 & number < 1){

@@ -3,19 +3,15 @@ package Controller;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-import org.mockito.internal.exceptions.ExceptionIncludingMockitoWarnings;
-
 import Controller.Home;
-import hotelManagement.FrontDiskView;
-import hotelManagement.DatabaseManager;
-import hotelManagement.JavaApplication;
-import hotelManagement.RoomService;
-import hotelManagement.HouseKeeping;
-
-
-
-import java.io.IOException;
+//import hotelManagement.FrontDiskView;
+//import hotelManagement.DatabaseManager;
+//import hotelManagement.JavaApplication;
+//import hotelManagement.RoomService;
+//import hotelManagement.HouseKeeping;
+//import java.io.IOException;
 import java.util.InputMismatchException;
+
 public class HomeTest {
 private Home home = new Home();
 
