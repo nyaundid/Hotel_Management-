@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import Controller.Home;
+
 import Room.Room;
 
 public class HouseKeeping {
@@ -11,19 +12,20 @@ public class HouseKeeping {
 
 		Scanner scan = new Scanner(System.in);
 
-		  Home mm = new Home();
+		 
 		  DatabaseManager manager;
 		  
 		  public HouseKeeping(){
 			  manager = new DatabaseManager();
 		  }
+		  
 	  public void setup() throws IOException{
-				int number = 0;
+				int number = 0; 
 				while(number != -1){
 				printChoices();
 				 number = getValidChoice();
 				if(number == -1){
-				mm.displayEmployee();
+				
 				
 				}
 				else 
@@ -39,8 +41,10 @@ public class HouseKeeping {
 				}
 			}
 	  }
+
+
 	  
-	  private void updateRoomStatus() throws IOException {
+	  public void updateRoomStatus() throws IOException {
 		  ArrayList<Room> roomList = manager.getVDRoom();
 		  int roomID = 0;
 		  scan = new Scanner(System.in);
@@ -65,7 +69,7 @@ public class HouseKeeping {
 		  } 
 		
 	}
-	private void printVDRooms() throws IOException {
+	public void printVDRooms() throws IOException {
 		ArrayList<Room> roomList = manager.getVDRoom();
 		if(roomList == null || roomList.size() < 1){
 			//Here the list will be empty
@@ -80,7 +84,7 @@ public class HouseKeeping {
 		}
 		
 	}
-	private void printChoices(){
+	public void printChoices(){
 			System.out.println("\n1) Print Room List");
 		    System.out.println("2) Update Room Status");
 		    
@@ -88,7 +92,7 @@ public class HouseKeeping {
 
 		}
 
-		private int getValidChoice(){
+		int getValidChoice(){
 			int number = scan.nextInt();
 			
 			while (number > 3 & number < 1){
@@ -103,4 +107,5 @@ public class HouseKeeping {
 	
 
 
-}
+	}
+	

@@ -35,12 +35,4 @@ public void setroomNo(int croomNo) {
     this.roomNo = croomNo;
 }
 
-//public int getstatus() {
-//    return Integer.parseInt(status);
-//}
-//
-//public void setstatus(String cstatus) {
-//    this.status = cstatus;
-//}
-
 }
