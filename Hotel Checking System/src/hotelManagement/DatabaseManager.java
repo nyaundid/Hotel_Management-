@@ -30,11 +30,9 @@ public class DatabaseManager {
 	
 		public DatabaseManager(String urlString) {
 				this.urlString += urlString;
-		}
+		} 
 	
-//		public void geturlString(String urlString){
-//			geturlString("http://localhost/HotelManagment/");
-//		}
+
 		public DatabaseManager() {
 			postData = "";
 			// TODO Auto-generated constructor stub
