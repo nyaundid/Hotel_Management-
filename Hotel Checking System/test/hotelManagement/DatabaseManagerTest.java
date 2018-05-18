@@ -16,6 +16,7 @@ public class DatabaseManagerTest {
 	public void testGetJsonOutput()  {
 		
 		try {
+//			DatabaseManager(urlString);
 			manager.getAvailableRooms();
 			manager.setID("UTF-8", "UTF-8");
 			manager.sendRequest();
