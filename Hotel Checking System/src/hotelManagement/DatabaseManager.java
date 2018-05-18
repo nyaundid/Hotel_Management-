@@ -70,8 +70,7 @@ public class DatabaseManager {
     	}
 		
 		public boolean checkin(String MemberName, String ConfirmationNo, String MemberType, String roomNumber) throws IOException{
-			
-//			urlString ="http://35.173.198.1/HotelManagment/checkin.php";
+
 			 postData = URLEncoder.encode("MemberName", "UTF-8") + "=" + URLEncoder.encode(MemberName, "UTF-8") + "&"+
 					 URLEncoder.encode("ConfirmationNo", "UTF-8") + "=" + URLEncoder.encode(ConfirmationNo, "UTF-8") + "&"+
 					 URLEncoder.encode("MemberType", "UTF-8") + "=" + URLEncoder.encode(MemberType, "UTF-8") + "&"
@@ -195,7 +194,7 @@ public class DatabaseManager {
 		
 		public ArrayList<Room> getVCRooms() throws IOException{
 			ArrayList<Room> roomList = new ArrayList<Room>();
-			urlString ="http://localhost/HotelManagment/getVCRooms.php";
+			urlString ="http://35.173.198.1/HotelManagment/getVCRooms.php";
 			url = new URL(urlString);
 			sendRequest();
 			if(!jsonOutput.equals("Failed")){
