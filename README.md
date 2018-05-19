@@ -83,13 +83,13 @@ Patron Check In Room
 
 •Hotel CheckInSystem SuDuses mySqldatabase called HotelManagementDB and this database has four tables: 
 	
-	•Member
-	
-	•Room
-	
-	•RoomStatusHK
-	
-	•RoomStatusRS
+		•Member
+		
+		•Room
+		
+		•RoomStatusHK
+		
+		•RoomStatusRS
 	
 •Step 1:Place the URL “http://35.173.198.1/phpmyadmin” CMSDB (CreateDBScript) in to your browser.
 
