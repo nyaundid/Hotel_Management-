@@ -58,7 +58,7 @@ https://github.com/eyad-ust
 
 Patron Check In Room
 
-## Imports before running (DatabaseManager
+## Imports before running (DatabaseManager)
 		import java.io.BufferedReader;
 		import java.io.BufferedWriter;
 		import java.io.IOException;
