@@ -59,6 +59,7 @@ https://github.com/eyad-ust
 Patron Check In Room
 
 ## Imports before running (DatabaseManager)
+		
 		import java.io.BufferedReader;
 		import java.io.BufferedWriter;
 		import java.io.IOException;
@@ -77,6 +78,8 @@ Patron Check In Room
 		import org.json.JSONArray;
 		import org.json.JSONException;
 		import org.json.JSONObject;
+		import Room.Room;
+
 
 ## RUNNING THE APPLICATION
 
