@@ -58,10 +58,25 @@ https://github.com/eyad-ust
 
 Patron Check In Room
 
-## USE CASE 1
-
-
-Patron Check Out Room
+## Imports before running (DatabaseManager
+		import java.io.BufferedReader;
+		import java.io.BufferedWriter;
+		import java.io.IOException;
+		import java.io.InputStream;
+		import java.io.InputStreamReader;
+		import java.io.OutputStream;
+		import java.io.OutputStreamWriter;
+		import java.io.UnsupportedEncodingException;
+		import java.net.HttpURLConnection;
+		import java.net.MalformedURLException;
+		import java.net.URL;
+		import java.net.URLEncoder;
+		import java.text.SimpleDateFormat;
+		import java.util.ArrayList;
+		import java.util.List;
+		import org.json.JSONArray;
+		import org.json.JSONException;
+		import org.json.JSONObject;
 
 ## RUNNING THE APPLICATION
 
@@ -94,5 +109,4 @@ Membership Type [Gold, Silver and Non Member] next the user will be prompted to 
 The user will be able to 1 Print Room List and 2 Update Room Statusand -1 to return to Home Screen.
 
 •Step 8:If the user selects option 3 from the Home Scree which is In Room Service, the following options will be available.
-
 
